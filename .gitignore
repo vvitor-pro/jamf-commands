@@ -1,0 +1,24 @@
+# Coletas do diagnóstico: contêm serial, usuário, certificados, DNS e logs
+jamf-diagnostico-*/
+# Amostras HTML exportadas pelos testes
+jamf-amostra*.html
+
+# macOS
+.DS_Store
+._*
+.AppleDouble
+.LSOverride
+.Spotlight-V100
+.Trashes
+.fseventsd
+
+# Editores
+.vscode/
+.idea/
+*.swp
+*~
+
+# Claude Code: configurações e instruções pessoais
+.claude/settings.local.json
+.claude/worktrees/
+CLAUDE.local.md
